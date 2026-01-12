@@ -4,6 +4,8 @@ a = int(input("Anna ensimmäinen luku: "))
 b = int(input("Anna toinen luku: "))
 print("Summa on:", a + b)
 
+Aluksi oli hieman haastaavaa saada käännettyä ohjelman, mutta netistä sai oikeat komennot muuntamiseen ja lopputyö oli helppoa.
+
 
 
 00000000: 01100001 00100000 00111101 00100000 01101001 01101110  a = in
