@@ -60,6 +60,8 @@ wp-admin:
 
 <img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_25_49" src="https://github.com/user-attachments/assets/a9c6b5c6-c861-4dc8-a5b0-941a024cf20f" />
 
+d) Break into 020-your-eyes-only. Tämän pystyin tekemään taas macbookillani. 
+
 
 
 
