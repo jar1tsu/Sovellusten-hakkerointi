@@ -75,7 +75,7 @@ eli pääsin admin sivustolle vaikka olin kirjautunut normaalina käyttäjänä.
 e) Fix the 020-your-eyes-only vulnerability.
 Avasin tiedoston views.py nanolla:
 <img width="1014" height="980" alt="image" src="https://github.com/user-attachments/assets/c7e67ce5-6b96-45c1-842b-893308d285bc" />
-Lisäsin rivin "and self.request.user.is_staff"
+Lisäsin rivin `"and self.request.user.is_staff"`jo kun kokeilin uudestaan päästä samalla keinolla admin sivulle tuli forbidden error:
 <img width="1784" height="1288" alt="image" src="https://github.com/user-attachments/assets/385e3164-0578-447c-8fb3-ebababb5e9b5" />
 
 
