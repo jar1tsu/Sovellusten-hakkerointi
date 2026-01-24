@@ -8,3 +8,12 @@ Aloitin sivuston murtamisen tunnilla olevan ohjeen mukaan eli `value="OR+1=1--`.
 Tietämys minulta loppui siihen, mutta sain yhdeltä kurssilaiselta vinkin, että PortSwiggerin sivuilla saa neuvoja kyseiseen tehtävään. Sieltä löysin SQL injection UNION attacks kohdan, josta sain lisätietoa. Kokeilin tehtävää hieman eri tavalla. Ensin muutin `type="number"`kohdan tyhjäksi ja sitten kokeilin tällaista SQL lauseketta `value="'UNION SELECT password FROM pins--"`. Tämä antoi oikean tuloksen:
 
 <img width="1916" height="1202" alt="image" src="https://github.com/user-attachments/assets/b5db9be2-c256-4355-a0da-462a884a8046" />
+
+b) Fix the 010-staff-only vulnerability from source code
+Avasin source-koodin nano-teksti editorissa.
+<img width="1828" height="1196" alt="image" src="https://github.com/user-attachments/assets/17647bc9-c5ea-4947-89a2-bd1405a73661" />
+Korjasin haavoittovuuden
+<img width="998" height="778" alt="image" src="https://github.com/user-attachments/assets/a7b1f611-4f6a-4ffe-94ec-b4ca1a83fdd4" />
+
+
+
