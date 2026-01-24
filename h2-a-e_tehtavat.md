@@ -57,7 +57,8 @@ wp-admin:
 
 /.git/config:
 
-<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_23_11" src="https://github.com/user-attachments/assets/6de48e79-dd64-4acd-8b57-4fa9a808d454" />
+
+<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_25_49" src="https://github.com/user-attachments/assets/a9c6b5c6-c861-4dc8-a5b0-941a024cf20f" />
 
 
 
