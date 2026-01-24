@@ -16,6 +16,11 @@ Korjasin haavoittovuuden koodista muuttamalla: sql = "SELECT password FROM pins 
 
 <img width="1052" height="802" alt="image" src="https://github.com/user-attachments/assets/5f5090a5-d1ef-44b3-8569-793b72f9549b" />
 
+Kun testasin samaa SQL injectonia niin en saannut salasanaa näkyville.
+
+<img width="1730" height="1198" alt="image" src="https://github.com/user-attachments/assets/bfa5e4d9-359b-4208-8aa4-686d5a101dd0" />
+
+
 
 
 
