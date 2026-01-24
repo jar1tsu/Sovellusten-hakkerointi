@@ -9,7 +9,7 @@ Tietämys minulta loppui siihen, mutta sain yhdeltä kurssilaiselta vinkin, ett�
 
 <img width="1916" height="1202" alt="image" src="https://github.com/user-attachments/assets/b5db9be2-c256-4355-a0da-462a884a8046" />
 
-b) Fix the 010-staff-only vulnerability from source code
+b) Fix the 010-staff-only vulnerability from source code.
 Avasin source-koodin nano-teksti editorissa.
 <img width="1828" height="1196" alt="image" src="https://github.com/user-attachments/assets/17647bc9-c5ea-4947-89a2-bd1405a73661" />
 Korjasin haavoittovuuden koodista muuttamalla: sql = "SELECT password FROM pins WHERE pin= :pin;" ja res=db.session.execute(text(sql),{"pin": pin})
