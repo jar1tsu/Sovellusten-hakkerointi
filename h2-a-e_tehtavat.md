@@ -41,9 +41,23 @@ Tällainen nettisivu tuli esille:
 
 <img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_05_11" src="https://github.com/user-attachments/assets/0b800a93-a655-4bb7-a556-fb20bdd642d8" />
 
-suoritin terminaalissa komennon ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ. Tuloksena tuli:
+suoritin terminaalissa komennon `./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ.` Tuloksena tuli iso määrä pyyntöjä:
 
 <img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_12_45" src="https://github.com/user-attachments/assets/d1d59f6c-4e74-41e1-ba87-52eaf2044752" />
+
+Lähestulkoon kaikissa pyynnöissä filter size oli 154. joten käytin päätin filtteröidä komennolla: `./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154`. Näkyville tuli vähemmän rivejä:
+
+
+<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_17_45" src="https://github.com/user-attachments/assets/20cca6fd-4e32-483e-abb4-bc220cc6b8f7" />
+
+Kokeilin jokaista kohtaa url:lin loppuun, käyttämällä sanoja /wp-admin ja .git/config. Nämä paljastivat molemmat liput:
+
+wp-admin:
+<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_21_32" src="https://github.com/user-attachments/assets/b7c32d1b-2bc7-41d4-987c-7247f54bf04c" />
+
+/.git/config:
+
+<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_23_11" src="https://github.com/user-attachments/assets/6de48e79-dd64-4acd-8b57-4fa9a808d454" />
 
 
 
