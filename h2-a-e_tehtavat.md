@@ -60,7 +60,29 @@ wp-admin:
 
 <img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_25_49" src="https://github.com/user-attachments/assets/a9c6b5c6-c861-4dc8-a5b0-941a024cf20f" />
 
-d) Break into 020-your-eyes-only. Tämän pystyin tekemään taas macbookillani. 
+d) Break into 020-your-eyes-only. Tämän pystyin tekemään taas macbookillani. Käytin käynnistysohjeissa Teron Hack'n Fix artikkelin ohjeita ja sain sen käyntiin:
+<img width="1768" height="1296" alt="image" src="https://github.com/user-attachments/assets/35c2f477-3906-4ee4-829c-bd381e452bcd" />
+
+Suoritin toisessa terminaalissa komennon `ffuf -w common.txt u- http://127.0.0.1:8000/FUZZ`. 
+
+<img width="1336" height="1154" alt="image" src="https://github.com/user-attachments/assets/51aa8137-89ad-4519-b537-a9c9ed6dfc27" />
+Sieltä tuli àdmin-console` rivi esille ja päätin kokeilla sitä url-osoitteen jatkona. Sieltä tuli tälläinen error page:
+<img width="1772" height="1292" alt="image" src="https://github.com/user-attachments/assets/aef9a443-7856-4135-8a80-90e2a8afe448" />
+Menin takasin etusivulle ja kokeilin muutamia keinoja ja sit löysin oikean. Sivustolle piti kirjautua ensin ja sit laittaa url-osoitteen perään /admin-console,josta tuli sivu:
+<img width="1892" height="1290" alt="image" src="https://github.com/user-attachments/assets/41f24aec-6c8e-4f8f-a8e4-a628f9156b90" />
+eli pääsin admin sivustolle vaikka olin kirjautunut normaalina käyttäjänä.
+
+e) Fix the 020-your-eyes-only vulnerability.
+Avasin tiedoston views.py nanolla:
+<img width="1014" height="980" alt="image" src="https://github.com/user-attachments/assets/c7e67ce5-6b96-45c1-842b-893308d285bc" />
+Lisäsin rivin "and self.request.user.is_staff"
+<img width="1784" height="1288" alt="image" src="https://github.com/user-attachments/assets/385e3164-0578-447c-8fb3-ebababb5e9b5" />
+
+
+
+
+
+
 
 
 
