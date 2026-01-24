@@ -37,8 +37,15 @@ Levytila: 20 GB
 Onnistuin lataamaan tiedoston ja ajoin sen. 
 
 <img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_02_31" src="https://github.com/user-attachments/assets/4a656917-aca1-443d-b4ab-3110f6c52809" />
+Tällainen nettisivu tuli esille:
 
 <img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_05_11" src="https://github.com/user-attachments/assets/0b800a93-a655-4bb7-a556-fb20bdd642d8" />
+
+suoritin terminaalissa komennon ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ. Tuloksena tuli:
+
+<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_12_45" src="https://github.com/user-attachments/assets/d1d59f6c-4e74-41e1-ba87-52eaf2044752" />
+
+
 
 
 
