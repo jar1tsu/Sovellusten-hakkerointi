@@ -2,7 +2,11 @@
 Macbook Pro M2 2023, jossa on MacOS Tahoe 26.2. Pyöritän Kali Linuxia VirtualBoxissa, jonka versio on 7.2.4. Kali Linux on taas ARM 64-bit. Kali Linuxissa on 8GB ram:ia, 2CPU corea pyörittämässä sitä ja 20GB tallennustilaa.
 
 a) Break into 010-staff-only
-Aloitin sivuston murtamisen tunnilla olevan ohjeen mukaan eli `value"-OR+1=1--` tai `value"-OR+1=1--ADMIN`
+Aloitin sivuston murtamisen tunnilla olevan ohjeen mukaan eli `value="OR+1=1--`. Se ei vielä antanut mitään. Huomasin että inputissa oli `type="number"`kohta ja kun tyhjensin sen ja kokeilin uudestaan niin se antoi minulle salasanan, mutta se ei ollut oikea, jota tehtävänannossa kuvailtiin.
+
+<img width="1904" height="1552" alt="image" src="https://github.com/user-attachments/assets/15f68b0e-05f2-4e0a-98fe-bf7306a0650e" />
+Tietämys minulta loppui siihen, mutta sain yhdeltä kurssilaiselta vinkin, että PortSwiggerin sivuilla saa neuvoja
+
 
 
 
