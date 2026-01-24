@@ -14,7 +14,8 @@ Avasin source-koodin nano-teksti editorissa.
 <img width="1828" height="1196" alt="image" src="https://github.com/user-attachments/assets/17647bc9-c5ea-4947-89a2-bd1405a73661" />
 Korjasin haavoittovuuden koodista muuttamalla: sql = "SELECT password FROM pins WHERE pin= :pin;" ja res=db.session.execute(text(sql),{"pin": pin})
 
-<img width="998" height="778" alt="image" src="https://github.com/user-attachments/assets/a7b1f611-4f6a-4ffe-94ec-b4ca1a83fdd4" />
+<img width="1052" height="802" alt="image" src="https://github.com/user-attachments/assets/5f5090a5-d1ef-44b3-8569-793b72f9549b" />
+
 
 
 
