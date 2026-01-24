@@ -36,6 +36,13 @@ Levytila: 20 GB
 
 Onnistuin lataamaan tiedoston ja ajoin sen. 
 
+<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_02_31" src="https://github.com/user-attachments/assets/4a656917-aca1-443d-b4ab-3110f6c52809" />
+
+<img width="1280" height="800" alt="VirtualBox_Debian Clone_24_01_2026_18_05_11" src="https://github.com/user-attachments/assets/0b800a93-a655-4bb7-a556-fb20bdd642d8" />
+
+
+
+
 
 
 
