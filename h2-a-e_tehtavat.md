@@ -69,7 +69,7 @@ Suoritin toisessa terminaalissa komennon `ffuf -w common.txt u- http://127.0.0.1
 Sieltä tuli àdmin-console` rivi esille ja päätin kokeilla sitä url-osoitteen jatkona. Sieltä tuli tälläinen error page:
 <img width="1772" height="1292" alt="image" src="https://github.com/user-attachments/assets/aef9a443-7856-4135-8a80-90e2a8afe448" />
 Menin takasin etusivulle ja kokeilin muutamia keinoja ja sit löysin oikean. Sivustolle piti kirjautua ensin ja sit laittaa url-osoitteen perään /admin-console,josta tuli sivu:
-<img width="1892" height="1290" alt="image" src="https://github.com/user-attachments/assets/41f24aec-6c8e-4f8f-a8e4-a628f9156b90" />
+<img width="1824" height="1284" alt="image" src="https://github.com/user-attachments/assets/ddd20be8-772d-41eb-825e-81707cbfd8bb" />
 eli pääsin admin sivustolle vaikka olin kirjautunut normaalina käyttäjänä.
 
 e) Fix the 020-your-eyes-only vulnerability.
